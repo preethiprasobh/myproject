@@ -6,12 +6,12 @@ public class ParentClass {
 		int b=20;
 		public void print()
 		{
-			System.out.println(a);
+			System.out.println("Inside parent :"+a);
 		}
 		public void add()
 		{
 			int c=a+b;
-			System.out.println(c);
+			System.out.println("Addition result:"+c);
 		}
 		// TODO Auto-generated method stub
 }

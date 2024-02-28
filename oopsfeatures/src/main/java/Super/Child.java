@@ -6,7 +6,7 @@ public class Child extends Parent{
 	{
 		 s="yellow";
 		System.out.println("inside child: "+s);
-		System.out.println("inside Parent:"+super.s);
+		System.out.println("inside Parent:"+super.s);  //calling parent class string s
 	}
 	public static void main(String args[])
 	{
